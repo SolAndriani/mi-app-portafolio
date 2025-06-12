@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { getGifs } from '../helpers/getGifs';
+import { getGifs } from '../helpers/getGifs.js';
+
 
 export const useFetchGifs = ( category ) => {
  
